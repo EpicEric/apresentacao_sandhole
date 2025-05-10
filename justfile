@@ -1,5 +1,5 @@
-present:
-  presenterm README.md
+run:
+  presenterm -x README.md
 
 pdf:
   presenterm --export-pdf README.md 

@@ -35,12 +35,53 @@ Self-hosting
 
 <!-- column: 1 -->
 
+<!-- incremental_lists: true -->
+
+- Independência virtual.
+- Privacidade e controle.
+- Reciclagem de hardware.
+- Aprendizado sobre tecnologias.
+- É divertido!
+- <3 open-source.
+
+<!-- end_slide -->
+
+Desafios
+===
+
+Network Address Translation...
+
 <!-- pause -->
-Independência virtual.
+
+E port forwarding...
+
 <!-- pause -->
-Reciclagem de hardware.
+
+E IPs dinâmicos...
+
+<!-- incremental_lists: true -->
+
+- VPN
+  - Software específico
+- VPS com IP público
+  - Limitado aos recursos da máquina
+- Proxy reverso
+  - Segurança
+
+<!-- end_slide -->
+
+E se eu somar tudo? Existe uma solução...?
+
 <!-- pause -->
-<3 open-source.
+
+Sim. Sim, há.
+
+<!-- pause -->
+
+<!-- jump_to_middle -->
+
+SSH
+===
 
 <!-- end_slide -->
 
@@ -59,10 +100,10 @@ ssh -R meusite.com.br:80:localhost:3000 sandhole.com.br
 E mais...!
 ===
 
-- Load balancing
 - Domínios personalizados
+- Load balancing
 - Suporte a portas TCP, incluindo SSH
-- Sistema de autenticação via chaves SSH
+- Autenticação via chaves SSH
 - Forwarding local - quase uma VPN
 - UI de administração no terminal (via SSH, claro)
 
@@ -93,6 +134,8 @@ Escrito em Rust
 
 A linguagem certa?
 ===
+
+<!-- incremental_lists: true -->
 
 <!-- column_layout: [1, 1] -->
 
@@ -129,6 +172,10 @@ Aprendizagem => Síntese
 Demonstração
 ===
 
+```fish +exec +acquire_terminal
+~/tmp/demo/CraneGame_linux_x86_64
+```
+
 <!-- end_slide -->
 
 Obrigado!
@@ -137,5 +184,6 @@ Obrigado!
 - https://github.com/EpicEric/sandhole
 - E-mail: eric@eric.dev.br
 - Mastodon: @EpicEric@mastodon.xyz
-- Bluesky: @eric.dev.br
+- Discord: @epiceric
+- Telegram: @ericpires9
 
