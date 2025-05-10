@@ -13,7 +13,7 @@ println!("Hello, world!");
 
 <!-- column: 0 -->
 
-- **Eric "Epic Eric" Pires** 
+- Eric **"Epic Eric"** Pires 
 - Engenheiro de software @ **Artemis Technologies**
 - Anteriormente @ **NIC.br**
 - Entusiasta de open-source e Rust
@@ -48,15 +48,23 @@ Reciclagem de hardware.
 
 Um reverse proxy baseado em SSH.
 - Sem mais problemas de NAT!
-- HTTPS automático
-- Suporte a portas TCP, incluindo SSH
-- Forwarding local - quase uma VPN
-- Sistema de autenticação via chaves SSH
-- UI de administração no terminal (via SSH, claro)
+- HTTPS automático para serviços expostos
 
 ```bash
 ssh -R meusite.com.br:80:localhost:3000 sandhole.com.br
 ```
+
+<!-- end_slide -->
+
+E mais...!
+===
+
+- Load balancing
+- Domínios personalizados
+- Suporte a portas TCP, incluindo SSH
+- Sistema de autenticação via chaves SSH
+- Forwarding local - quase uma VPN
+- UI de administração no terminal (via SSH, claro)
 
 <!-- end_slide -->
 
@@ -126,6 +134,8 @@ Demonstração
 Obrigado!
 ===
 
-- Github: @EpicEric
+- https://github.com/EpicEric/sandhole
+- E-mail: eric@eric.dev.br
 - Mastodon: @EpicEric@mastodon.xyz
 - Bluesky: @eric.dev.br
+
