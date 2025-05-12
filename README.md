@@ -1,7 +1,7 @@
 ---
 title: Sandhole
 sub_title: Uma jornada de self-host em Rust
-author: Epic Eric
+author: Eric Pires
 theme:
   name: catppuccin-macchiato
 ---
@@ -20,7 +20,7 @@ println!("Hello, world!");
 
 <!-- column: 1 -->
 
-![image](epic_eric.png)
+![image](eric.jpg)
 
 <!-- end_slide -->
 
@@ -161,8 +161,6 @@ A linguagem certa?
 
 <!-- alignment: center -->
 
-<!-- font_size: 2 -->
-
 Aprendizagem => Síntese
 
 <!-- end_slide -->
@@ -181,9 +179,16 @@ Demonstração
 Obrigado!
 ===
 
+<!-- column_layout: [2, 1] -->
+
+<!-- column: 0 -->
+
 - https://github.com/EpicEric/sandhole
 - E-mail: eric@eric.dev.br
 - Mastodon: @EpicEric@mastodon.xyz
 - Discord: @epiceric
 - Telegram: @ericpires9
 
+<!-- column: 1 -->
+
+![image](epic_eric.png)
