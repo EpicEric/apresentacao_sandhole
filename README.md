@@ -27,13 +27,13 @@ println!("Hello, world!");
 Self-hosting
 ===
 
-<!-- column_layout: [1, 2, 1] -->
-
-<!-- column: 0 -->
-
 ![image](rpi3.jpg)
 
-<!-- column: 1 -->
+
+<!-- end_slide -->
+
+Self-hosting
+===
 
 <!-- incremental_lists: true -->
 
