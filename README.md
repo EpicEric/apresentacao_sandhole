@@ -49,7 +49,9 @@ Self-hosting
 Desafios
 ===
 
-Network Address Translation...
+<!-- pause -->
+
+IPs dinâmicos...
 
 <!-- pause -->
 
@@ -57,7 +59,7 @@ E port forwarding...
 
 <!-- pause -->
 
-E IPs dinâmicos...
+E Network Address Translation (NAT)...
 
 <!-- incremental_lists: true -->
 
