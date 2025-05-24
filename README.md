@@ -126,9 +126,9 @@ Sandhole
 
 Escrito em Rust
 <!-- pause -->
-... por um principiante em Rust
+... por alguém com relativamente pouca experiência em Rust
 <!-- pause -->
-... sem experiência em redes ou proxies.
+... e com conhecimentos mínimos em proxies.
 
 ![image](does_not_compile.png)
 
