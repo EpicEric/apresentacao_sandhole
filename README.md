@@ -64,11 +64,11 @@ E Network Address Translation (NAT)...
 <!-- incremental_lists: true -->
 
 - VPN
-  - Software específico
+  - Software específico nos dois lados
 - VPS com IP público
   - Limitado aos recursos da máquina
 - Proxy reverso
-  - Segurança
+  - Ainda precisa de uma maneira de conectar
 
 <!-- end_slide -->
 
@@ -102,10 +102,10 @@ ssh -R meusite.com.br:80:localhost:3000 sandhole.com.br
 E mais...!
 ===
 
+- Autenticação via chaves SSH
 - Domínios personalizados
 - Load balancing
 - Suporte a portas TCP, incluindo SSH
-- Autenticação via chaves SSH
 - Forwarding local - quase uma VPN
 - UI de administração no terminal (via SSH, claro)
 
@@ -121,14 +121,15 @@ https://sandhole.com.br
 
 <!-- end_slide -->
 
-Sandhole
+Por que esse projeto?
 ===
 
-Escrito em Rust
 <!-- pause -->
-... por alguém com relativamente pouca experiência em Rust
+Baseado numa aplicação existente (sish, em Golang).
 <!-- pause -->
-... e com conhecimentos mínimos em proxies.
+Pouca experiência prévia em Rust e proxies.
+<!-- pause -->
+Por que _não_ reescrever em Rust...?
 
 ![image](does_not_compile.png)
 
@@ -143,10 +144,10 @@ A linguagem certa?
 
 <!-- column: 0 -->
 
-- Rewrite it in Rust!
 - Baixo nível (HTTP, TCP, TLS, SSH...)
-- async via tokio
 - Ecossistema de bibliotecas
+- async via tokio
+- stdlib poderosa
 
 <!-- column: 1 -->
 
