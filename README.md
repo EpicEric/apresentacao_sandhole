@@ -109,6 +109,10 @@ E mais...!
 - Forwarding local - quase uma VPN
 - UI de administração no terminal (via SSH, claro)
 
+```fish +exec +acquire_terminal
+ssh -t sandhole.com.br admin
+```
+
 <!-- end_slide -->
 
 <!-- jump_to_middle -->
