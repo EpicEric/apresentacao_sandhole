@@ -190,9 +190,9 @@ Obrigado!
 
 <!-- column: 0 -->
 
-- https://github.com/EpicEric/sandhole
+https://github.com/EpicEric/sandhole
+
 - E-mail: eric@eric.dev.br
-- Mastodon: @EpicEric@mastodon.xyz
 - Discord: @epiceric
 - Telegram: @ericpires9
 
