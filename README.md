@@ -91,7 +91,8 @@ SSH
 
 Um reverse proxy baseado em SSH.
 - Sem mais problemas de NAT!
-- HTTPS automático para serviços expostos
+- Domínios personalizados
+- Autenticação via chaves SSH
 
 ```bash
 ssh -R meusite.com.br:80:localhost:3000 sandhole.com.br
@@ -102,11 +103,11 @@ ssh -R meusite.com.br:80:localhost:3000 sandhole.com.br
 E mais...!
 ===
 
-- Autenticação via chaves SSH
-- Domínios personalizados
+- HTTPS automático para serviços expostos
 - Load balancing
 - Suporte a portas TCP, incluindo SSH
-- Forwarding local - quase uma VPN
+- Forwarding local - quase como uma VPN
+- Diversas configurações via linha de comando
 - UI de administração no terminal (via SSH, claro)
 
 ```fish +exec +acquire_terminal
@@ -151,7 +152,7 @@ A linguagem certa?
 - Baixo nível (HTTP, TCP, TLS, SSH...)
 - Ecossistema de bibliotecas
 - async via tokio
-- stdlib poderosa
+- Performance por padrão
 
 <!-- column: 1 -->
 
